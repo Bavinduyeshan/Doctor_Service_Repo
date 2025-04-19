@@ -8,4 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface DoctorRepositery extends JpaRepository<Doctor,Integer> {
     Doctor findByUserId(Integer userId);
+
 }

@@ -65,6 +65,8 @@ public class DoctorService {
            updatedDoctor.setEmial(doctor.getEmial());
            updatedDoctor.setPhonenumber(doctor.getPhonenumber());
            updatedDoctor.setSpecilization(doctor.getSpecilization());
+           updatedDoctor.setExperience(doctor.getExperience());
+           updatedDoctor.setEducation(doctor.getEducation());
 
            doctorRepositery.save(updatedDoctor);
            return "Doctor Updated Succesfully";
